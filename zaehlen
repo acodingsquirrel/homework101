@@ -1,0 +1,3 @@
+sichtbar=$(ls | wc -l)
+alle=$(ls -a | wc -l)
+echo -e "Es sind $sichtbar Files sichtbar\nEs sind $alle Files sichtbar und unsichtbar."
